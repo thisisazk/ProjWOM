@@ -1,4 +1,76 @@
+/*
+**  Declarations
+*/
+
+@font-face {
+	font-family: Humblle Rought;
+	font-weight: normal;
+	font-style: normal;
+	src: url("fonts/Humblle_Rought_Caps.otf");
+}
+
+@font-face {
+	font-family: Gidole;
+	font-weight: normal;
+	font-style: normal;
+	src: url("fonts/Gidole-Regular.otf");
+}
+
+@font-face {
+	font-family: Uni Sans;
+	font-weight: bold;
+	font-style: normal;
+	src: url("fonts/Uni_Sans_Heavy.otf");
+}
+
+@font-face {
+	font-family: Uni Sans;
+	font-weight: normal;
+	font-style: normal;
+	src: url("fonts/Uni_Sans_Thin.otf");
+}
+
 header {
-	height: 30vh;
-	background: red;
+	height: 100vh;
+	background: #fef3e2;
+}
+
+footer {
+	height: 100vh;
+	background: purple;
+}
+
+h1, h2, h3, a {
+	font-family: Humblle Rought !important;
+}
+
+p {
+	font-family: Gidole !important;
+}
+
+nav {
+	text-align: center;
+	padding-top: 2%;
+}
+
+nav > a, nav > img {
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+#hLogo {
+	border-radius : 100%;
+	width: 200px;
+	height: auto;
+}
+
+a {
+	font-size: 1.8em;
+	/* font-family: Gidole !important; */
+	color: #9bc01c !important;
+}
+
+a:hover {
+	text-decoration: none !important;
+	color: #f52549 !important;
 }
