@@ -33,11 +33,14 @@
 header {
 	height: 100vh;
 	background: #fef3e2;
+	overflow: hidden;
+	/* position: absolute; */
 }
 
 footer {
 	height: 100vh;
 	background: purple;
+	/* position: absolute; */
 }
 
 h1, h2, h3, a {
@@ -51,6 +54,7 @@ p {
 nav {
 	text-align: center;
 	padding-top: 2%;
+	margin-bottom: 1.5%;
 }
 
 nav > a, nav > img {
@@ -60,7 +64,7 @@ nav > a, nav > img {
 
 #hLogo {
 	border-radius : 100%;
-	width: 200px;
+	width: 15%;
 	height: auto;
 }
 
@@ -73,4 +77,40 @@ a {
 a:hover {
 	text-decoration: none !important;
 	color: #f52549 !important;
+}
+
+#hSB {
+	height: 100%;
+	background: url('assets/saladBowl.png');
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+	padding-top: 10%;
+}
+
+span.USanBold > h1 {
+	font-family: Uni Sans !important;
+	font-weight: bold;
+	font-size: 6em;
+	color: #fef3e2;
+    background: rgba(245,85,96,.75);
+    border-radius: 35px;
+    display: inline;
+    padding: 0% 1.5%;
+}
+
+#hSB > h1 {
+	position: relative;
+    margin-top: 10%;
+    color: #f52549;
+    font-size: 3.5em;
+}
+
+.hGoUp {
+	font-size: .75em !important;
+	padding: 0% .1% 0% .25%;
+    border-top: 2px solid #f52549;
+    border-left: 2px solid #f52549;
+    border-right: 2px solid #f52549;
 }
