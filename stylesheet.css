@@ -193,15 +193,21 @@ span.USanBold > h1 {
 	margin-top: 3%;
 }
 
+textarea,
 input[type="text"],
 input[type="email"],
 input[type="password"] {
 	border: 2px solid #d1d1d1;
 	border-radius: 25px !important;
-	font-family: Uni Sans;
-	font-weight: bold;
-	font-size: 2em;
+	font-family: Uni Sans !important;
+	font-weight: bold !important;
+	font-size: 2em !important;
 	padding: .75% 1.5%;
+}
+
+textarea {
+	width: 100%;
+
 }
 
 button {
@@ -222,4 +228,155 @@ button:hover {
 
 #txtEmail, #btnSubmit {
 	margin-top: 3.5%;
+}
+
+#sBody {
+	height: 100vh;
+	background: #9bc01c;
+}
+
+#sNav {
+	height: 15vh;
+	background: #9bc01c;
+	margin-bottom: 0 !important;
+}
+
+#sBanner {
+	background: url('assets/saladBowl.png') #fef3e2;
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: left;
+	height: 85vh;
+	text-align: right;
+	padding: 5% 7.5%;
+	font-family: Gidole !important;
+}
+
+#sFooter {
+	background: #9bc01c;
+	height: 50vh;
+	text-align: center;
+	font-family: Humblle Rought !important;
+	padding-top: 2%;
+}
+
+#sLogo {
+	width: 10%;
+	height: auto;
+	border-radius: 100%;
+}
+
+#sNav > a {
+	color: #fef3e2 !important;
+	margin-top: 1%;
+}
+
+#sNav > a:hover {
+	text-decoration: underline !important;
+}
+
+#BanCont {
+	padding: 6.5% 7.5%;
+	width: 55%;
+	float: right;
+	text-align: center;
+}
+
+#sBanner h1 {
+	font-family: Gidole !important;
+	font-size: 2em;
+	/* color: #f52549; */
+	margin-top: .25% !important;
+}
+
+#sbTxt {
+	font-family: Uni Sans !important;
+	font-weight: bold;
+	font-size: 2.5em;
+	color: #f52549;
+}
+
+#BanCont > p {
+	font-size: 1.5em;
+}
+
+#bLink {
+	display: inline-block;
+	width: 70%;
+	height: 40px;
+	background: white;
+	border: 2px solid grey;
+	border-radius: 5px;
+	overflow: hidden;
+	color: #c1c1c1;
+	font-size: 1.5em;
+	padding-top: .5%;
+}
+
+#sFooter > h1 {
+	color: #fff;
+	margin: 0 !important;
+	font-size: 5em;
+}
+
+#footNav {
+	margin-top: 2%;
+}
+
+#footNav > a {
+	color: #fff !important;
+}
+
+#footNav > a:hover {
+	color: #9bc01c !important;
+	background: #fef3ef;
+	border-radius: 25px;
+	padding-bottom: .75%;
+}
+
+#cBanner {
+	height: 85vh;
+	text-align: right;
+	padding: 5% 7.5%;
+	font-family: Gidole !important;
+	background: #fef3e2;
+}
+
+#cFMess, #cForm {
+	width: 50%;
+	float: left;
+}
+
+#cForm {
+	padding-top: 1%;
+}
+
+#cForm > input {
+	display: block;
+	float: left;
+}
+
+#cForm > input, #cForm >textarea {
+	margin-bottom: 2%;
+}
+
+#ctxtMessage {
+	height: 40vh !important;
+}
+
+#cFMess {
+	padding-top: 6%;
+	padding-right: 10%;
+}
+
+#cFMess > h1 {
+	color: #f52549;
+	font-family: Uni Sans !important;
+	font-weight: bold;
+	font-size: 4em;
+}
+
+#cFMess > h1 > span {
+	font-weight: normal;
+	color: #333;
 }

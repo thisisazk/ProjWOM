@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
 	<title>Harrys Salad Bar</title>
+  <script src="script.js"></script>
 	<meta charset = "UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,15 +14,13 @@
   <body>
     <header>
       <nav>
-        <a href="">Link1</a>
-        <a href="">Link1</a>
-        <a href="">Link1</a>
-
+        <a href="index.html">Home</a>
+        <a href="#">Products</a>
+        <a href="subscribed.html">Prizes</a>
         <img id="hLogo" src="assets/logo.jpg">
-
-        <a href="">Link1</a>
-        <a href="">Link1</a>
-        <a href="">Link1</a>
+        <a href="#fTop">Subscribe</a>
+        <a href="#">Terms</a>
+        <a href="contact.html">Contact</a>
       </nav>
       <div id="hSB">
         <span class="USanBold"><h1>Salad is Evolving</h1></span>
@@ -34,8 +33,10 @@
         <h1 id="fTopH">Don't get left behind<br><span class="glyphicon glyphicon-chevron-down hGoDown"></span></h1>
         <h1 id="fSplash">Be the first to book a table</h1>
         <span id="fText">Harry's is going to change your Salad Experience.<br>Join Now To Know More And Earn Prizes</span>
-        <input id="txtEmail" type="text" placeholder="Enter your Email"></input>
+        <form action="subscribed.html" onsubmit="return emailChk()">
+        <input id="txtEmail" type="email" placeholder="Enter your Email"></input>
         <button id="btnSubmit" type="Submit" value="I'm Ready">I'm Ready</button>
+        </form>
       </div>
       <div id="fBot">
         <span id="fCopy">We Respect Your Privacy<br>Copyright &copy; 2016.<br>All Rights Reserved.</span>
