@@ -119,12 +119,29 @@ span.USanBold > h1 {
     border-right: 2px solid #f52549;
 }
 
+.hGoDown {
+	font-size: .75em !important;
+	padding: 0% .1% 0% .25%;
+    border-bottom: 2px solid #333;
+    border-left: 2px solid #333;
+    border-right: 2px solid #333;
+}
+
+#fTopH {
+	position: relative;
+    margin-top: -3%;
+    /* color: #f52549; */
+    font-size: 3.5em;
+}
+
 #fTop {
 	height: 85%;
 	background: url('assets/tableBack.png');
 	position: relative;
 	z-index: 120;
 	box-shadow: 0px 7.5px 10px rgba(205, 199, 199, .75);
+	text-align: center;
+	overflow: hidden;
 }
 
 #fBot {
@@ -160,4 +177,49 @@ span.USanBold > h1 {
 
 #fTitle {
 	float: right;
+}
+
+#fSplash {
+	margin-top: 4%;
+	font-family: Uni Sans !important;
+	font-weight: bold;
+	font-size: 5em;
+}
+
+#fText {
+	font-family: Gidole;
+	font-size: 2em;
+	display: block;
+	margin-top: 3%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	border: 2px solid #d1d1d1;
+	border-radius: 25px !important;
+	font-family: Uni Sans;
+	font-weight: bold;
+	font-size: 2em;
+	padding: .75% 1.5%;
+}
+
+button {
+	border: 2px solid #f52549;
+	border-radius: 25px !important;
+	font-family: Uni Sans !important;
+	font-weight: bold !important;
+	font-size: 2em !important;
+	color: #fef3e2 !important;
+	padding: .75% 1.5%;
+	background: #fa6755;
+}
+
+button:hover {
+	background: #f52549;
+	border: 2px solid #fa6755;
+}
+
+#txtEmail, #btnSubmit {
+	margin-top: 3.5%;
 }
