@@ -26,9 +26,9 @@
   	  <div id="cFMess">
   	    <h1>Can't wait until launch? Want to say hi? <span>Go ahead</span></h1>
   	  </div>
-  	  <form id="cForm" method="post">
+  	  <form id="cForm" method="post" onsubmit="return contChk()">
   	    <input type="text" id="ctxtName" placeholder="Your Good Name">
-  	    <input type="text" id="ctxtEmail" placeholder="Your Email Address">
+  	    <input type="email" id="ctxtEmail" placeholder="Your Email Address">
   	    <textarea rows="4" id="ctxtMessage" placeholder="Please type your message here"></textarea>
   	    <button type="submit" id="cbtnSubmit" value="Send">Send</button>
   	  </form>
